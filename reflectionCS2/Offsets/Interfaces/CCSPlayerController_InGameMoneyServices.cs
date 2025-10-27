@@ -12,11 +12,10 @@ namespace reflectionCS2.Offsets.Interfaces
         {
         }
 
-        public nint m_iAccount = 0x40; // int32_t
-        public nint m_iStartAccount = 0x44; // int32_t
-        public nint m_iTotalCashSpent = 0x48; // int32_t
-        public nint m_iCashSpentThisRound = 0x4C; // int32_t
-        public nint m_nPreviousAccount = 0x50; // int32_t
+        public nint m_iAccount = 0x40; // int32
+        public  nint m_iStartAccount = 0x44; // int32
+        public nint m_iTotalCashSpent = 0x48; // int32
+        public nint m_iCashSpentThisRound = 0x4C; // int32
 
     }
 }

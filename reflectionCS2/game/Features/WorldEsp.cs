@@ -68,7 +68,7 @@ namespace reflectionCS2.game.Features
                         if (!projectile)
                         {
                             w = new Weapon(baseEntity) { Origin = origin, Name = designerName, };
-                            w.State = Memory.Read<int>(baseEntity + C_CSWeaponBase.m_iState);
+                            w.State = Memory.Read<int>(baseEntity + C_CSWeaponBase.m_iWeaponGameplayAnimState);
                             w.UpdateIndex();
                         }
                         else

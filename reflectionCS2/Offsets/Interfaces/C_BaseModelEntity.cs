@@ -13,7 +13,7 @@ namespace reflectionCS2.Offsets.Interfaces
 
         }
 
-        public nint m_CHitboxComponent = 0xA28; // CHitboxComponent
-        public nint m_vecViewOffset = 0xC58; // CNetworkViewOffsetVector
+        public IntPtr m_CHitboxComponent = 0xAE8; // CHitboxComponent
+        public IntPtr m_vecViewOffset = 0xD80; // CNetworkViewOffsetVector
     }
 }

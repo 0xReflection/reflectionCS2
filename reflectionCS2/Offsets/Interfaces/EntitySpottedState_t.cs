@@ -12,8 +12,9 @@ namespace reflectionCS2.Offsets.Interfaces
         {
         }
 
-        public nint m_bSpotted = 0x8; // bool
-        public nint m_bSpottedByMask = 0xC; // uint32_t[2]
+        public  nint m_bSpotted = 0x8; // bool
+        public  nint m_bSpottedByMask = 0xC; // uint32[2]
+
 
     }
 }

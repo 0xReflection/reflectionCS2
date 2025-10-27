@@ -12,20 +12,22 @@ namespace reflectionCS2.Offsets.Interfaces
         {
         }
 
-        public nint m_nFinalPredictedTick = 0x548; // int32_t
-        public nint m_CommandContext = 0x550; // C_CommandContext
-        public nint m_nInButtonsWhichAreToggles = 0x600; // uint64_t
-        public nint m_nTickBase = 0x608; // uint32_t
-        public nint m_hPawn = 0x60C; // CHandle<C_BasePlayerPawn>
-        public nint m_hPredictedPawn = 0x610; // CHandle<C_BasePlayerPawn>
-        public nint m_nSplitScreenSlot = 0x614; // CSplitScreenSlot
-        public nint m_hSplitOwner = 0x618; // CHandle<CBasePlayerController>
-        public nint m_hSplitScreenPlayers = 0x620; // CUtlVector<CHandle<CBasePlayerController>>
-        public nint m_bIsHLTV = 0x638; // bool
-        public nint m_iConnected = 0x63C; // PlayerConnectedState
-        public nint m_iszPlayerName = 0x640; // char[128]
-        public nint m_steamID = 0x6C8; // uint64_t
-        public nint m_bIsLocalPlayerController = 0x6D0; // bool
-        public nint m_iDesiredFOV = 0x6D4; // uint32_t
+        public  nint m_CommandContext = 0x600; // C_CommandContext
+        public nint m_nInButtonsWhichAreToggles = 0x6A8; // uint64
+        public nint m_nTickBase = 0x6B0; // uint32
+        public nint m_hPawn = 0x6B4; // CHandle<C_BasePlayerPawn>
+        public nint m_bKnownTeamMismatch = 0x6B8; // bool
+        public nint m_hPredictedPawn = 0x6BC; // CHandle<C_BasePlayerPawn>
+        public nint m_nSplitScreenSlot = 0x6C0; // CSplitScreenSlot
+        public nint m_hSplitOwner = 0x6C4; // CHandle<CBasePlayerController>
+        public nint m_hSplitScreenPlayers = 0x6C8; // CUtlVector<CHandle<CBasePlayerController>>
+        public nint m_bIsHLTV = 0x6E0; // bool
+        public nint m_iConnected = 0x6E4; // PlayerConnectedState
+        public nint m_iszPlayerName = 0x6E8; // char[128]
+        public nint m_steamID = 0x770; // uint64
+        public nint m_bIsLocalPlayerController = 0x778; // bool
+        public nint m_bNoClipEnabled = 0x779; // bool
+        public nint m_iDesiredFOV = 0x77C; // uint32
+
     }
 }

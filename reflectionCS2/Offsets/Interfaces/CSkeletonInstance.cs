@@ -13,6 +13,6 @@ namespace reflectionCS2.Offsets.Interfaces
 
         }
 
-        public nint m_modelState = 0x170; // CModelState
+        public  nint m_modelState = 0x190; // CModelState
     }
 }

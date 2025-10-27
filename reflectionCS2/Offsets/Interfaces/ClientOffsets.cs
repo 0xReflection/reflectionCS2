@@ -12,7 +12,7 @@ namespace reflectionCS2.Offsets.Interfaces
         {
         }
 
-        public nint dwEntityList = 0x0;
+        public nint dwEntityList = 0x1D07A80;
         public nint dwForceAttack = 0x0;
         public nint dwForceAttack2 = 0x0;
         public nint dwForceBackward = 0x0;

@@ -13,12 +13,13 @@ namespace reflectionCS2.Offsets.Interfaces
 
         }
 
-        public nint m_nNextPrimaryAttackTick = 0x15B8; // GameTick_t
-        public nint m_flNextPrimaryAttackTickRatio = 0x15BC; // float
-        public nint m_nNextSecondaryAttackTick = 0x15C0; // GameTick_t
-        public nint m_flNextSecondaryAttackTickRatio = 0x15C4; // float
-        public nint m_iClip1 = 0x15C8; // int32_t
-        public nint m_iClip2 = 0x15CC; // int32_t
-        public nint m_pReserveAmmo = 0x15D0; // int32_t[2]
+        public  nint m_nNextPrimaryAttackTick = 0x18E0; // GameTick_t
+        public  nint m_flNextPrimaryAttackTickRatio = 0x18E4; // float32
+        public  nint m_nNextSecondaryAttackTick = 0x18E8; // GameTick_t
+        public  nint m_flNextSecondaryAttackTickRatio = 0x18EC; // float32
+        public  nint m_iClip1 = 0x18F0; // int32
+        public  nint m_iClip2 = 0x18F4; // int32
+        public  nint m_pReserveAmmo = 0x18F8; // int32[2]
+
     }
 }
